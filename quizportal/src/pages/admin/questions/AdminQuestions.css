@@ -1,0 +1,25 @@
+.adminQuestions__container {
+    display: flex;
+}
+
+.adminQuestions__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.adminQuestions__content {
+    width: 70%;
+    height: fit-content;
+    padding: 8px;
+}
+
+.adminQuestions__content--button {
+    
+    display: block;
+    width: 20%;
+ 
+    margin: 20px auto;
+    background-color:rgb(68 177 49);
+    color: white;
+}

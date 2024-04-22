@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Implementation-Title: quizportal
+Implementation-Version: 2.7.12
+Created-By: Maven Integration for Eclipse
+

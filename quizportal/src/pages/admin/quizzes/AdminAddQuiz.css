@@ -1,0 +1,25 @@
+.adminAddQuiz__container {
+    display: flex;
+}
+
+.adminAddQuiz__sidebar {
+    position: sticky;
+    top: 0;
+    flex: 0.01;
+    height: 100vh;
+
+}
+
+.adminAddQuiz__content {
+    margin: 5px;
+    padding: 8px;
+    flex: 0.99;
+}
+
+.adminAddQuiz__content--button{
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    background-color:  rgb(68 177 49);
+    color:white;
+}

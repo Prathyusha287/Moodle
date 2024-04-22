@@ -1,0 +1,33 @@
+.viewQuestions__container {
+    display: flex;
+}
+
+.viewQuestions__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.viewQuestions__content {
+    width: 100%;
+    height: fit-content;
+    padding: 8px;
+}
+
+
+.viewQuestions__content--options {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.viewQuestions__content--button {
+    display: inline-block;
+    width: 20%;
+    height: 2.5em;
+    margin: 20px auto;
+    background-color:rgb(68 177 49);
+    color: white;
+    justify-content: flex-start;
+}
+

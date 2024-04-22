@@ -1,0 +1,38 @@
+.adminQuizzes__container {
+    display: flex;
+}
+
+.adminQuizzes__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.adminQuizzes__content {
+    width: 70%;
+    height: fit-content;
+    padding: 8px;
+}
+
+.adminQuizzes__content--quizzesList {
+    width: 100% !important;
+    margin-top: 5px;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border: 1px solid grey;
+    justify-content: center;
+}
+
+.adminQuizzes__content--ButtonsList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.adminQuizzes__content--button {
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color: white;
+}
